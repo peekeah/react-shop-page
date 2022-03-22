@@ -69,7 +69,7 @@ export default function Navbar() {
                 </li>
                 <div className="d-flex">
                   <button className="btn btn-outline-dark">{<ShoppingCartIcon />} Cart 
-                    <span classname="bg-dark text-light"> 0</span>
+                    <span className="bg-dark text-light"> 0</span>
                   </button>
                 </div>
               </ul>

@@ -29,11 +29,11 @@ export default function CardComponent() {
             <img src="https://images.unsplash.com/photo-1504803900752-c2051699d0e8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxsYW5kc2NhcGV8fHx8fHwxNjQ3NjIzNDE5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" className="card-img-top" />
             <div className="card-body">
             <h5 className="card-title text-center"><strong>Special Item</strong></h5>
-              <p className="card-text text-center">
+              <div className="card-text text-center">
                 <div>
                   <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/>
                 </div>
-                <strike>$20.00</strike> $18.00</p>
+                <strike>$20.00</strike> $18.00</div>
             </div>
               <div className="d-flex justify-content-center">
                 <a href="/" className="btn btn-outline-dark my-4">View Options</a>
@@ -61,11 +61,11 @@ export default function CardComponent() {
             <img src="https://images.unsplash.com/photo-1504803900752-c2051699d0e8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxsYW5kc2NhcGV8fHx8fHwxNjQ3NjIzNDE5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" className="card-img-top" />
             <div className="card-body">
             <h5 className="card-title text-center"><strong>Popular Item</strong></h5>
-              <p className="card-text text-center">
+              <div className="card-text text-center">
                 <div>
                   <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/>
                 </div>
-              $40.00</p>
+              $40.00</div>
             </div>
               <div className="d-flex justify-content-center">
                 <a href="/" className="btn btn-outline-dark my-4">View Options</a>
@@ -78,9 +78,9 @@ export default function CardComponent() {
             <img src="https://images.unsplash.com/photo-1504803900752-c2051699d0e8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxsYW5kc2NhcGV8fHx8fHwxNjQ3NjIzNDE5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" className="card-img-top" />
             <div className="card-body">
             <h5 className="card-title text-center"><strong>Sale Item</strong></h5>
-              <p className="card-text text-center">
+              <div className="card-text text-center">
                 
-              <strike>$50.00</strike> $25.00</p>
+              <strike>$50.00</strike> $25.00</div>
             </div>
               <div className="d-flex justify-content-center">
                 <a href="/" className="btn btn-outline-dark my-4">View Options</a>
@@ -105,11 +105,11 @@ export default function CardComponent() {
             <img src="https://images.unsplash.com/photo-1504803900752-c2051699d0e8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxsYW5kc2NhcGV8fHx8fHwxNjQ3NjIzNDE5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" className="card-img-top" />
             <div className="card-body">
             <h5 className="card-title text-center"><strong>Special Item</strong></h5>
-              <p className="card-text text-center">
+              <div className="card-text text-center">
                 <div>
                   <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/>
                 </div>
-                <strike>$20.00</strike> $18.00</p>
+                <strike>$20.00</strike> $18.00</div>
             </div>
               <div className="d-flex justify-content-center">
                 <a href="/" className="btn btn-outline-dark my-4">View Options</a>
@@ -122,11 +122,11 @@ export default function CardComponent() {
             <img src="https://images.unsplash.com/photo-1504803900752-c2051699d0e8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSxsYW5kc2NhcGV8fHx8fHwxNjQ3NjIzNDE5&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" className="card-img-top" />
             <div className="card-body">
             <h5 className="card-title text-center"><strong>Popular Item</strong></h5>
-              <p className="card-text text-center">
+              <div className="card-text text-center">
                 <div>
                   <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/> <StarIcon/>
                 </div>
-              $40.00</p>
+              $40.00</div>
             </div>
               <div className="d-flex justify-content-center">
                 <a href="/" className="btn btn-outline-dark my-4">View Options</a>
