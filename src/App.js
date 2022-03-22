@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
+
+import * as React from "react";
+import "./App.css";
+import Navbar from "./MyComponents/Navbar";
+import CardComponent from "./MyComponents/CardComponent";
+import StarIcon from '@mui/icons-material/Star';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+
+// import {Button} from '@mui/material';
+// import Button from '@mui/material/Button';
+// import Card from '@mui/material/Card';
+
+import {
+  Typography,
+  Button,
+  Card,
+  CardContent,
+  CardActions,
+} from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <CardComponent />
+
+      <footer className="footer d-flex bg-dark text-light justify-content-center align-items-center" >
+        <div>
+        Copyright &copy; Your Website 2021
+        </div>
+      </footer>
+      
+    </>
   );
 }
 
